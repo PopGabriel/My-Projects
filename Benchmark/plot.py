@@ -31,7 +31,7 @@ def insert_data_into_postgres(processor_model, test_number, score):
     try:
         conn = psycopg2.connect(
             user="postgres",
-            password="jdef1112",
+            password="",
             host="localhost",
             port="5432",
             database="scs"
